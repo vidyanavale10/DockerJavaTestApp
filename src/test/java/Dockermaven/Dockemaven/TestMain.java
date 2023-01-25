@@ -1,11 +1,11 @@
 package Dockermaven.Dockemaven;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class TestMain {
-	@ Test
+	@Test
 	public void testInputIsEven() {
 		
 		assertTrue(Main.checkIfInputIsASEvenNumber(22));
